@@ -1,9 +1,24 @@
-### New user
-
-POST http://localhost:3000/auth/signup
+### Set color
+POST  http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "manoloextra@hotmail.com",
-    "password": "onmula12"
+"email": "patio@hotmail.com",
+"password": "patio33"
 }
+
+### Inicio de sesion
+POST  http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+"email": "patio@hotmail.com",
+"password": "patio33"
+}
+### Get color
+
+GET http://localhost:3000/auth/colors/red
+
+### Get color
+
+GET http://localhost:3000/auth/colors
